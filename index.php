@@ -12,7 +12,7 @@
                             'orderby'     => 'date',
                             'order'       => 'ASC',
                             'post_type'   => 'post',
-                            'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+                            'suppress_filters' => true,
                         ) );
 
                         foreach( $my_posts as $post ){
