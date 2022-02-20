@@ -300,7 +300,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="contacts__map acf-map">
+                        <div class="contacts__map">
+                            <?php echo do_shortcode('[wpgmza id="1"]')?>
                         </div>
                     </div>
                 </div>
